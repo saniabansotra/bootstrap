@@ -16,11 +16,58 @@
     height: 100%;
 }
 .offer_style{
-    background:#a6dcef;
+    background:#6ca248;
 }
 body{
     position:relative;
 }
+nav{
+
+padding-top:0px;
+    background-color:rgb(248, 229, 222);
+}
+.navbar img{
+    height:95px;
+}
+.navbar ul button{
+    border-radius: 10px;
+    margin-right: 30px;
+    background-color:rgb(173, 248, 223);
+    display: grid;
+    height: 100%;
+    overflow: hidden;
+    border: none;
+    
+}
+.navbar ul button :hover{
+color:white;
+   background-color:aliceblue
+}
+.col img{
+    height:50%;
+    width:50%;
+    display: flex;
+    align-items:center;
+    
+}
+.main_heading{
+    background-color:rgb(250, 246, 253);
+}
+.card:hover{
+    box-sizing: content-box;
+    box-shadow: 0 10px 10px 0;
+    transform: translateY(-10px);
+}
+
+.main_heading2{
+    background-color: rgb(244, 236, 251);
+}
+.main_heading img{
+    display: flex;
+align-items: center;
+}
+
+
 
 
 
